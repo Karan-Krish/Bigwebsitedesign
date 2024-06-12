@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ------------------------navbar------------------------------- */
+.Navbar {
+    width: 100vw;
+    background-color: #071a52;
+    position: fixed;
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 17px;
+}
+
+
+li .a {
+
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 17px 16px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.a:hover {
+    background-color: #3f65b3c0;
+
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: beige;
+    font-size: 17px;
+    padding: 10px;
+    border-left: 5px ridge rgb(29, 133, 165);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg-theme {
+    background-color: #071a52ec;
+
+    color: white;
+}
+
+.ii {
+    background-color: #071a52ec;
+
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.main {
+    /* background-color: #071a52; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+
+.over {
+    margin-top: 90px;
+    width: 100vw;
+    margin-left: 270px;
+    height: 100vh;
+    display: flex;
+    overflow: visible;
+}
+
+#Container1 {
+    margin-top: 70px;
+    height: 100%;
+    position: fixed;
+    width: 19vw;
+    color: black;
+    display: block;
+    /* border: 2px solid rgb(0, 89, 255); */
+    background-color: #e9e9e9;
+    overflow-y: scroll;
+    /* text-align: center; */
+
+
+
+
+}
+
+#Container1>h2 {
+
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32pxpx;
+}
+
+#Container1>a {
+    display: block;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 2px;
+}
+
+#Container1>a:hover {
+    background-color: #cec8c8e3;
+
+}
+
+
+
+
+#Container2 {
+    /* border: 2px solid rgb(0, 89, 255); */
+    /* background-color: #ffb0cd; */
+    height: 100vh;
+
+
+    width: 60vw;
+}
+
+#Container2>h1 {
+    font-weight: 400;
+    line-height: 63px;
+    font-size: 42px;
+}
+
+
+
+
+
+
+
+
+
+#Container3 {
+    /* border: 2px solid rgb(0, 89, 255); */
+    /* background-color: #cabbe9; */
+
+    width: 15vw;
+
+    height: 100vh;
+}
+
+#Container3>span {
+    margin-left: 60px;
+}
